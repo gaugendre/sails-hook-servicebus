@@ -1,0 +1,28 @@
+{
+  "name": "sails-hook-servicebus",
+  "version": "0.0.0",
+  "description": "A sails.js hook wrapping the servicebus module and providing support for multiple instances to comunicate over rabbit-mq",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilhem Augendre",
+  "license": "MIT",
+  "dependencies": {
+    "servicebus": "^1.0.0-rc9"
+  },
+  "keywords": [
+    "servicebus",
+    "amqp",
+    "amqplib",
+    "rabbit",
+    "rabbit-mq",
+    "cqrs",
+    "sails",
+    "sails.js",
+    "sailsjs"
+  ],
+  "sails": {
+    "isHook": true
+  }
+}
